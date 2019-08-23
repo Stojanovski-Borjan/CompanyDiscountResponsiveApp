@@ -1,0 +1,141 @@
+.header{
+    background: #fcd232;
+}
+
+.header-h1{
+    font-size: 85px;
+}
+
+.btn-dark, .btn-warning{
+    width: 15%;
+    border-radius: 2.3rem!important;
+}
+
+.btn-warning{
+    width: 20%;
+}
+
+.search{
+    border-radius: 2.3rem;
+}
+
+.dropdown{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.2rem;
+    padding-left: 30%;
+}
+
+.dropdown-option{
+    border:1px dashed;
+}  
+
+.change-buttons{
+    color:white;
+    font-size: 24px;
+}
+
+.card-column {
+    flex-direction: column !important;
+}
+
+.image-flex {
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    margin-left: -3.5%;
+}
+
+/* .d-inline-flex{
+    border:1px solid;
+    margin-bottom: 5%; 
+    border-radius: 1.2rem;
+} */
+
+.card-horizontal{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+
+  .radio-toolbar input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+  }
+  
+  .radio-toolbar input[type="radio"]:checked + label {
+      background-color: #f9fc5d;
+      border-color: yellow;
+      color: black;
+  }
+  
+  .thumbnail-fail{
+      background: grey;
+      display: table;
+      border-radius: 15px;
+      color: #fff;
+      width: 16%;
+      height: 30px;
+      text-align: center;
+      padding-top: 5%;
+  }
+  
+  input[type='file']{
+      display: none;
+  }
+  
+  .upload-thumbnail{
+      width: 100%;
+      height: 10vh;
+      border: dashed 1px ;
+      font-size: 36px;
+  }
+
+  .upload-images{
+    width: 100%;
+    height: 10vh;
+    border: dashed 1px ;
+    font-size: 36px;
+}
+
+  .fa-arrow-left{
+      font-size: 24px;
+  }
+
+  .form-control{
+      border-radius: 1.25rem;
+  }
+
+  
+  /* Tablet */
+  @media only screen and (max-width: 769px) {
+    .starrating {
+      margin-left: -25%;
+    }
+    
+  }
+
+  /* Mobile */
+  @media only screen and (max-width: 430px) {
+    .starrating {
+      padding-left: 35%;
+      margin-left: 0%;
+    }
+
+    .link_social{
+        margin-top:-15%
+    }
+
+    .col-sm-12{
+        flex: 0;
+    }
+    
+
+    .offset-3{
+        margin-left: 0;
+    }
+
+    .btn{
+        width: 100%;
+    }
+  }
